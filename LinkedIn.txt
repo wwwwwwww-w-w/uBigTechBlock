@@ -1,0 +1,24 @@
+!! LINKEDIN
+! Prelogin
+linkedin.com###artdeco-global-alerts-cls-offset
+linkedin.com##.global-alert-banner
+linked.in.com##.guest-upsells
+! Generic
+linkedin.com##div:has(> div > div > div > div > div > p > span:has-text("Try Premium"))
+! Profile
+linkedin.com/in##div:has(> div > section > div > div > div > h2:has-text("Suggested for you"))
+! Feed
+linkedin.com/feed###Launchpad_LaunchpadComponent
+linkedin.com/feed##div:has(> div > div > div > a > div > p:has-text("Network smarter with Premium"))
+! Jobs
+linkedin.com/jobs/view##hr
+linkedin.com/jobs/view##aside
+linkedin.com/jobs/view##div:has(> div > div > div > h2:has-text("Use AI to assess how you fit"))
+linkedin.com/jobs/view##div:has(> div > div > div > h2:has-text("Set alert for similar jobs"))
+linkedin.com/jobs/view##div:has(> div > div > div > h2:has-text("Put your best foot forward with your application"))
+linkedin.com/jobs/view##div:has(> div > div > div > div > h2:has-text("Interested in working with us in the future?"))
+linkedin.com/jobs/view##div:has(> div > div > div > div > p:has-text("See how you compare to"))
+linkedin.com/jobs/view##div:has(> div > div > div > div > div > div > div > div > p:has-text("Job search faster with Premium"))
+linkedin.com/jobs/view##div:has(> p:has-text("Trending employee content"))
+linkedin.com/jobs/view##a:has(> span > span:has-text("Show more"))
+linkedin.com/jobs/view###workspace > div > div > section:style(grid-column-end: col-end 24 !important)
