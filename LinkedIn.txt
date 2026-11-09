@@ -2,7 +2,8 @@
 ! Prelogin
 linkedin.com###artdeco-global-alerts-cls-offset
 linkedin.com##.global-alert-banner
-linked.in.com##.guest-upsells
+linkedin.com##.guest-upsells
+linkedin.com###sdui-google-one-tap-consent-wrapper
 ! Generic
 linkedin.com##div:has(> div > div > div > div > div > p > span:has-text("Try Premium"))
 ! Profile
