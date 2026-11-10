@@ -6,6 +6,7 @@ linkedin.com##.guest-upsells
 linkedin.com###sdui-google-one-tap-consent-wrapper
 ! Generic
 linkedin.com##div:has(> div > div > div > div > div > p > span:has-text("Try Premium"))
+linkedin.com##div:has(> div > div > div > div > div > p > span:has-text("LinkedIn respects your privacy"))
 ! Profile
 linkedin.com/in##div:has(> div > section > div > div > div > h2:has-text("Suggested for you"))
 ! Feed
@@ -23,3 +24,10 @@ linkedin.com/jobs/view##div:has(> div > div > div > div > div > div > div > div 
 linkedin.com/jobs/view##div:has(> p:has-text("Trending employee content"))
 linkedin.com/jobs/view##a:has(> span > span:has-text("Show more"))
 linkedin.com/jobs/view###workspace > div > div > section:style(grid-column-end: col-end 24 !important)
+! Messaging
+linkedin.com/messaging##li:has(div > a > span > span:has-text("Try Premium"))
+linkedin.com/messaging##aside:has(footer > div > div:has-text("LinkedIn Corporation © 2026"))
+linkedin.com##main:has(div > div > div > div > h1:has-text("Messaging")):style(width: 142.5% !important)
+linkedin.com/messaging##aside:has(div > header > div > button > span > span:has-text("Messaging"))
+linkedin.com/messaging##footer:has(div > div > button:has-text("Send")):style(padding-bottom: 0 !important)
+linkedin.com###messaging:style(flex-direction:unset !important)
